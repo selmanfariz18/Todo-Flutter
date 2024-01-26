@@ -35,9 +35,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
   final _pages = [
     Today(),
-    ProfilePage(),
     HomeScreen(),
     Calendar(),
+    ProfilePage(), 
   ];
 
   @override
@@ -110,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
           BottomNavigationBarItem(
               icon: IconTheme(
                 data: IconThemeData(),
-                child: Icon(Icons.home),
+                child: Icon(Icons.home_outlined),
               ),
               label: ''),
           BottomNavigationBarItem(
@@ -122,7 +122,7 @@ class _MyHomePageState extends State<MyHomePage> {
           BottomNavigationBarItem(
               icon: IconTheme(
                 data: IconThemeData(),
-                child: Icon(Icons.person),
+                child: Icon(Icons.person_outline),
               ),
               label: ''),
         ],
